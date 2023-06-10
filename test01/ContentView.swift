@@ -34,10 +34,14 @@ struct ContentView: View {
     }
     var body: some View {
         VStack{
-            HStack{
-                ForEach(emojis[0..<emojiCount], id:\.self) { emoji in CardView(content:emoji)
+            ScrollView{
+                LazyVGrid (columns:[GridItem(.adaptive(minimum: 65))]) {
+                    //            HStack{
+                    ForEach(emojis[0..<emojiCount], id:\.self) { emoji in CardView(content:emoji).aspectRatio(2/3, contentMode: .fit)
+                    }
                 }
-            }.foregroundColor(Color.red)
+            }
+            .foregroundColor(Color.red)
             Spacer(minLength: 20)
             HStack{
                 remove
