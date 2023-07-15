@@ -1,5 +1,5 @@
 //
-//  test01App.swift
+//  MemorizeApp.swift
 //  test01
 //
 //  Created by Sang Hyun Kim on 2023/05/18.
@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct test01App: App {
+struct MemorizeApp: App {
+    let game = EmojiMemoryGame()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: game)
         }
     }
 }
