@@ -29,26 +29,29 @@ struct ContentView: View {
         
     }
         
-}
+
     
-struct CardView: View{
-    let card: MemoryGame<String>.Card
-    
-    var body: some View{
-        ZStack{
-            let shape :RoundedRectangle =  RoundedRectangle(cornerRadius: 20.0)
-            if card.isFaceUp {
-                shape.foregroundColor(.white)
-                shape.stroke(lineWidth: 3)
-                Text(card.content).font(.largeTitle)
-            }
-            else
-            {
-                shape.fill()
-            }
-        }
-    }
+    struct CardView: View{
+        let card: MemoryGame<String>.Card
         
+        var body: some View{
+            ZStack{
+                let shape :RoundedRectangle =  RoundedRectangle(cornerRadius: 20.0)
+                if card.isFaceUp {
+                    shape.foregroundColor(.white)
+                    shape.stroke(lineWidth: 3)
+                    Text(card.content).font(.largeTitle)
+                }
+                else if card.isMatched {
+                    shape.opacity(0) // transparent
+                }
+                else
+                {
+                    shape.fill()
+                }
+            }
+    }
+}
         
         
         
