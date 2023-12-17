@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8E24A5C8-FB53-4510-A71B-36236AADECE8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AF8A84C-8970-488A-B99C-1D379662C616"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "test01/MemoryGame.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "choose(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4AF8A84C-8970-488A-B99C-1D379662C616 - c303ce3684b897d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "test01.MemoryGame.choose(test01.MemoryGame&lt;&#x3c4;_0_0&gt;.Card) -&gt; ()"
+                  moduleName = "test01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanghyunkim/Documents/source/cs193p/test01/MemoryGame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "4AF8A84C-8970-488A-B99C-1D379662C616 - c303ce3684b897f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "test01.MemoryGame.choose(test01.MemoryGame&lt;&#x3c4;_0_0&gt;.Card) -&gt; ()"
+                  moduleName = "test01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanghyunkim/Documents/source/cs193p/test01/MemoryGame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "656">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

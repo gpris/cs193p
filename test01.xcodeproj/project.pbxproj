@@ -84,7 +84,6 @@
 		333FFE392A162E2C00D59C97 = {
 			isa = PBXGroup;
 			children = (
-				3393B57B2AEDF98400170428 /* Pie.swift */,
 				333FFE442A162E2C00D59C97 /* test01 */,
 				333FFE552A162E2D00D59C97 /* test01Tests */,
 				333FFE5F2A162E2D00D59C97 /* test01UITests */,
@@ -105,6 +104,7 @@
 		333FFE442A162E2C00D59C97 /* test01 */ = {
 			isa = PBXGroup;
 			children = (
+				3393B57B2AEDF98400170428 /* Pie.swift */,
 				333FFE452A162E2C00D59C97 /* MemorizeApp.swift */,
 				333FFE472A162E2C00D59C97 /* EmojiMemoryGameView.swift */,
 				338A5E442ADA7D8800226057 /* AspectVGrid.swift */,
